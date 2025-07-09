@@ -15,6 +15,7 @@ cd excel-streamlit-app
 ```bash
 conda env create -f environment.yml
 conda activate my-env2
+conda install conda-forge::xlsxwriter
 ```
 ### 3. Run the Streamlit App
 ```bash
