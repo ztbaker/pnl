@@ -17,10 +17,11 @@ jobs:
     - name: Add conda to system path
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
-        echo $CONDA/bin >> $GITHUB_PATH
+        echo $CONDA/bin
     - name: Install dependencies
       run: |
-        conda env update --file myenv2.yml --name base
+        conda env create -f myenv2.yml
+        conda activate myenv2
     - name: Lint with flake8
       run: |
         conda install flake8
