@@ -153,5 +153,5 @@ dependencies:
       - watchdog==6.0.0
       - websocket-client==1.8.0
       - wsproto==1.2.0
-      - xlsxwriter==3.2.5
+      - xlsxwriter==3.1.9
 prefix: C:\Users\zbaker\AppData\Local\spyder-6\envs\my-env2
