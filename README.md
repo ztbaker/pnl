@@ -15,13 +15,9 @@ cd excel-streamlit-app
 ```bash
 conda env create --file=environment.yml
 conda activate my-env2
-git add requirements.txt
-git commit -m "Fix: Add xlsxwriter to requirements.txt"
-git push
 ```
 ### 3. Run the Streamlit App
 ```bash
-pip install -r requirements.txt
 streamlit run PnL_app.py
 ```
 
