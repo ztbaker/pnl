@@ -21,6 +21,7 @@ git push
 ```
 ### 3. Run the Streamlit App
 ```bash
+pip install -r requirements.txt
 streamlit run PnL_app.py
 ```
 
