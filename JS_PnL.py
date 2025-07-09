@@ -6,9 +6,15 @@ Created on Thu Jul  3 11:13:04 2025
 """
 
 def getPnl(BLOTTER_FILE):
-
     import os, re
     import pandas as pd
+    import subprocess
+    
+    try:
+        import xlsxwriter
+    except ImportError:
+        subprocess.check_call(["pip", "install", "xlsxwriter"])
+        import xlsxwriter
     
     from xlsxwriter.utility import xl_rowcol_to_cell
 
