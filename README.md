@@ -19,7 +19,7 @@ conda activate my-env2
 ### 3. Run the Streamlit App
 ```bash
 pip install -r requirements.txt
-streamlit run PnL_app.py
+streamlit run main.py
 ```
 
 ## File Descriptions
