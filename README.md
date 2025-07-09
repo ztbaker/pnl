@@ -15,7 +15,7 @@ cd excel-streamlit-app
 ```bash
 pip install --upgrade pip
 conda env create -f myenv2.yml
-conda activate myenv2
+conda activate my-env2
 ```
 ### 3. Run the Streamlit App
 ```bash
