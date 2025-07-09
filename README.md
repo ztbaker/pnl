@@ -13,10 +13,21 @@ cd excel-streamlit-app
 ```
 ### 2. Set Up the Conda Environment
 ```bash
-conda env create -f environment.yml
 conda activate my-env2
 ```
 ### 3. Run the Streamlit App
 ```bash
 streamlit run main.py
 ```
+
+## File Descriptions
+### PnL_app.py
+This is the Streamlit app which serves as the user interface
+### JS_PnL.py
+This script contains the function which executes the organizing process for the uploaded blotter
+### myenv2.yml
+Specifies the Conda environment for all necessary dependencies of this project
+### .gitignore
+Lists patterns for files and folders to be exclided from version control
+### README.md
+This document, providing an overview of the project
