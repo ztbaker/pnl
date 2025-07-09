@@ -12,6 +12,14 @@ Created on Tue Jul  8 15:39:58 2025
 #     import streamlit as st
 import streamlit as st
 
+import os
+import subprocess
+try:
+    import xlsxwriter
+except ImportError:
+    subprocess.check_call(["pip", "install", "xlsxwriter"])
+    import xlsxwriter
+
 from io import BytesIO
 
 from JS_PnL import getPnl
