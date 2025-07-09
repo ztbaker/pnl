@@ -5,11 +5,10 @@ Created on Tue Jul  8 15:39:58 2025
 @author: ZBaker
 """
 import os
-try:
-    from xlsxwriter.utility import xl_rowcol_to_cell
-except ImportError:
-    os.system("pip install xlsxwriter")
-    from xlsxwriter.utility import xl_rowcol_to_cell
+
+os.system("pip install xlsxwriter")
+from xlsxwriter.utility import xl_rowcol_to_cell
+
 import streamlit as st
 
 from io import BytesIO
