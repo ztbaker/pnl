@@ -1,9 +1,9 @@
 name: my-env2
-channels:
-  - conda-forge/label/spyder_rc
-  - conda-forge/label/spyder_dev
-  - conda-forge/label/spyder_kernels_rc
-  - conda-forge
+# channels:
+#   - conda-forge/label/spyder_rc
+#   - conda-forge/label/spyder_dev
+#   - conda-forge/label/spyder_kernels_rc
+#   - conda-forge
 dependencies:
   - asttokens=3.0.0
   - brotli-python=1.1.0
